@@ -5,8 +5,8 @@ How to use readthedocs
 ## New project hosted by github
 ### Creat a new sphinx project
 
-* Reference: [http://rcmdnk.github.io/blog/2016/05/01/computer-brew-file-github/]()
-* 以下のコマンドでファイルを初期化する
+* Reference: `http://rcmdnk.github.io/blog/2016/05/01/computer-brew-file-github/ <http://rcmdnk.github.io/blog/2016/05/01/computer-brew-file-github/>`_
+* 以下のコマンドでファイルを初期化する ::
 
 	mkdir test
 	cd test
@@ -15,20 +15,20 @@ How to use readthedocs
 私はMathJaxはenabledにしてみました。
 設定は後からconf.pyから変更可能です。
 
-* .gitignore設定
+* .gitignore設定 ::
 
 	echo docs/_build/* > .gitignore
 
 sphinx-quickstartの時点でbuildとsourceを別々にする設定にすると、_buildディレクトリにならないので注意。
 
-* ファイルをgithubにpushしておく
+* ファイルをgithubにpushしておく ::
 
 	git add -A
 	git commit -m'<comment>'
 	git push origin <branch>
 
 
-* localでhtmlを確認
+* localでhtmlを確認 ::
 
 	make html
 
@@ -37,7 +37,7 @@ sphinx-quickstartの時点でbuildとsourceを別々にする設定にすると�
 ### Use readthedocs template
 
 * テンプレートを使うこともできます。
-* [https://github.com/readthedocs/template]()をフォークするとすぐ試せる
+* `https://github.com/readthedocs/template <https://github.com/readthedocs/template>`_をフォークするとすぐ試せる
 
 <br>
 
@@ -49,4 +49,4 @@ sphinx-quickstartの時点でbuildとsourceを別々にする設定にすると�
 
 ### buildに失敗する
 * Admin -> Advanced Settingsでdocs/conf.pyと指定したら直った
-* [http://stackoverflow.com/questions/32729978/read-the-docs-build-failing-without-errors]()
+* `http://stackoverflow.com/questions/32729978/read-the-docs-build-failing-without-errors <http://stackoverflow.com/questions/32729978/read-the-docs-build-failing-without-errors>`_
