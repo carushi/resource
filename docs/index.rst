@@ -7,12 +7,13 @@
 =======================================
 
 Contents:
-
+--------
 .. toctree::
    :maxdepth: 2
-   :glob:
-
-   *
+   
+   authors
+   Bioinformatics
+   readthedocs
 
 Indices and tables
 ==================

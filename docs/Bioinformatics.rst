@@ -1,11 +1,14 @@
 ==========
 Bioinformatics
 ==========
------------
+
+--------
 How much?
 --------
 
+
 シーケンサーの値段・性能まとめ（一例）
+===============================
 
 ======== ======== =========================== ============== ==========================
  会社     機種            性能 (Gb)              価格              価格 (run)  ======== ======== =========================== ============== ==========================
@@ -17,9 +20,8 @@ Illumina MiniSeq     7.5                       \$50,000       \-\-
 ======== ======== =========================== ============== ==========================
 
 
-+++++++++++++
 Reference
-+++++++++++++
+`````````
 
 * `http://jp.illumina.com/systems/sequencing.html <http://jp.illumina.com/systems/sequencing.html>`_
 * `http://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/2014_illumina_introducing_nextseq.pdf <http://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/2014_illumina_introducing_nextseq.pdf>`_
@@ -33,30 +35,29 @@ Reference
  \-\-    Sequel  \-\-        \$350,000  \$10,000 \/ hs genome 30x
 ======== ======= =========== ========= ==========================
 
-++++++++
 Reference
-++++++++
+`````````
 
 * `http://nextgenseek.com/2015/10/pacbio-announces-a-new-sequencer-pacbio-sequel/ <http://nextgenseek.com/2015/10/pacbio-announces-a-new-sequencer-pacbio-sequel/>`_
 
 （16.06.04時点調べ、コメント歓迎）
 
--------------
+--------
 Differential gene expression analyses
----------
+--------
 
-++++++++
+
 edgeR
-++++++++
+=========
 
-++++++++
+
 Cuffdiff
-++++++++
+=========
 
-++++++++
+
 DEseq2
-++++++++
+==========
 
-----------
+--------
 Go enrichment 
--------
+--------
