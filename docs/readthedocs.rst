@@ -34,10 +34,11 @@ sphinx-quickstartの時点でbuildとsourceを別々にする設定にすると�
 
 で_build以下にhtmlファイルができるが、readthedocsではsphinx rds templateが適用されるので見た目違うものになる。
 
+
 ### Use readthedocs template
 
 * テンプレートを使うこともできます。
-* `https://github.com/readthedocs/template <https://github.com/readthedocs/template>`_をフォークするとすぐ試せる
+* `https://github.com/readthedocs/template <https://github.com/readthedocs/template>`_ をフォークするとすぐ試せる
 
 <br>
 
