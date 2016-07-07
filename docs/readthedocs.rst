@@ -1,9 +1,56 @@
 ========
-how to use read-the-docs
+How to use readthedocs
 ========
 
-To use this template, simply update it::
+## New project hosted by github
+### Creat a new sphinx project
 
-* [http://rcmdnk.github.io/blog/2016/05/01/computer-brew-file-github/]()
+* Reference: [http://rcmdnk.github.io/blog/2016/05/01/computer-brew-file-github/]()
+* 以下のコマンドでファイルを初期化する
 
+```
+mkdir test
+cd test
+sphinx-quickstart ## answer or type <enter>
+```
+私はMathJaxはenabledにしてみました。
+設定は後からconf.pyから変更可能です。
+
+* .gitignore設定
+
+```
+echo docs/_build/* > .gitignore
+```
+sphinx-quickstartの時点でbuildとsourceを別々にする設定にすると、_buildディレクトリにならないので注意。
+
+* ファイルをgithubにpushしておく
+
+```
+git add -A
+git commit -m'<comment>'
+git push origin <branch>
+```
+
+* localでhtmlを確認
+
+```
+make html
+```
+で_build以下にhtmlファイルができるが、readthedocsではsphinx rds templateが適用されるので見た目違うものになる。
+
+### Use readthedocs template
+
+* テンプレートを使うこともできます。
+* [https://github.com/readthedocs/template]()をフォークするとすぐ試せる
+
+<br>
+
+<br>
+
+## Settings of Readthedocs
+### githubのアドレスを指定する
+* Admin -> Repository URLでdocumentが入っているレポジトリを指定
+
+### buildに失敗する
+* Admin -> Advanced Settingsでdocs/conf.pyと指定したら直った
 * [http://stackoverflow.com/questions/32729978/read-the-docs-build-failing-without-errors]()
