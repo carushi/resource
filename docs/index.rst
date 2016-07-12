@@ -16,6 +16,7 @@ Contents:
    readthedocs
    MySQL
    copula
+   RNAstructure
 
 Indices and tables
 ==================
