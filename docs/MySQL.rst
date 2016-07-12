@@ -15,7 +15,8 @@ brewでmysql.serverを入れてMySQLサーバをローカルで走らせます�
 	mysql -u root
 	mysql> SET PASSWORD FOR root@localhost=PASSWORD('hoge')
 	mysql> exit
-	mysql -u root -h localhost -p #passwordを要求される 	mysql.server stop
+	mysql -u root -h localhost -p #passwordを要求される
+	mysql.server stop
 
 Test set
 ++++++++++

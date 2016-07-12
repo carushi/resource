@@ -1,4 +1,6 @@
-##RNAex: an RNA secondary structure prediction server enhanced by high-throughput structure-probing data* Yang Wu†, Rihao Qu†, Yiming Huang†, Binbin Shi, Mengrong Liu, Yang Li and Zhi John Lu*
+##RNAex: an RNA secondary structure prediction server enhanced by high-throughput structure-probing data
+
+* Yang Wu†, Rihao Qu†, Yiming Huang†, Binbin Shi, Mengrong Liu, Yang Li and Zhi John Lu*
 * April, 2016.
 * RNAex server to access structure probing data
 * in vivo and in vitro 
@@ -6,7 +8,8 @@
 * + RNA editing, RNA modification, SNP sites
 
 ============= ========= ==============
-Species        Method    Sample ============= ========= ==============
+Species        Method    Sample
+============= ========= ==============
 Homo sapiens   DMS-seq   K562
                PARS      trio
 Arabi          DMS-seq   
@@ -21,7 +24,8 @@ Mouse          icSHAPE
 * Nathan D. Berkowitz, Ian M. Silverman, Daniel M. Childress, Hilal Kazan, Li-San Wang and Brian D. Gregory
 * May, 2016.
 * ds/ssRNA-seq (RNaseONE ss and RNase V1 ds)
-\\[ S_i = \log_2 \frac{ONE_i + 1}{V_{1j}+1}
+\\[
+S_i = \log_2 \frac{ONE_i + 1}{V_{1j}+1}
 \\]
 
 * similar to PARS

@@ -21,7 +21,7 @@ Creat a new sphinx project
 
 * .gitignore設定 ::
 
-	echo docs/_build/* > .gitignore
+	echo docs/\_build/* > .gitignore
 
 sphinx-quickstartの時点でbuildとsourceを別々にする設定にすると、_buildディレクトリにならないので注意。
 
