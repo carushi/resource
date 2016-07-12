@@ -21,7 +21,7 @@ Test set
 ++++++++++
 
 Employdbというやつのfull setを落としてきました。
-`https://launchpad.net/test-db/+download <https://launchpad.net/test-db/+download>`
+`https://launchpad.net/test-db/+download <https://launchpad.net/test-db/+download>`_
 
  ::
  
@@ -40,7 +40,7 @@ stopしてもサーバーにデータは残っていますので、データベ�
 	DROP DATABASE IF EXITSTS dbname;
 
 で消せます。
-`http://www.liquidweb.com/kb/delete-a-mysql-database-on-linux-via-command-line/ <http://www.liquidweb.com/kb/delete-a-mysql-database-on-linux-via-command-line/>`
+`http://www.liquidweb.com/kb/delete-a-mysql-database-on-linux-via-command-line/ <http://www.liquidweb.com/kb/delete-a-mysql-database-on-linux-via-command-line/>`_
 
 
 Manage database
@@ -56,12 +56,12 @@ Manage database
 で表示できます。
 あとは条件文を設定して絞っていくことになります。
 
-`https://technet.microsoft.com/en-us/library/bb264565(v=sql.90).aspx <https://technet.microsoft.com/en-us/library/bb264565(v=sql.90).aspx>`
+`https://technet.microsoft.com/en-us/library/bb264565(v=sql.90).aspx <https://technet.microsoft.com/en-us/library/bb264565(v=sql.90).aspx>`_
 
 PyMySQLを使う
 +++++++++++++
 
-`https://donjajo.com/using-pymysql-as-mysql-driver-for-python3/#.V33kSZN972I <https://donjajo.com/using-pymysql-as-mysql-driver-for-python3/#.V33kSZN972I>`
+`https://donjajo.com/using-pymysql-as-mysql-driver-for-python3/#.V33kSZN972I <https://donjajo.com/using-pymysql-as-mysql-driver-for-python3/#.V33kSZN972I>`_
 
 
 GUIでMySQLのデータセットを管理

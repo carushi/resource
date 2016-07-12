@@ -18,8 +18,10 @@ copulaを推定するためのRパッケージ、いろいろあります。
    :alt: alternate text
    :align: right
 
+
 copulaをダウンロード
 ++++++++++
+
 スライドで紹介されていたcopulaGOFが見つからなかったので、copulaをダウンロードしました。 ::
 	install.package("copula")
 	
