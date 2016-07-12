@@ -9,11 +9,13 @@
 Contents:
 --------
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    authors
    Bioinformatics
    readthedocs
+   MySQL
+   copula
 
 Indices and tables
 ==================
