@@ -62,3 +62,26 @@ buildに失敗する
 
 * Admin -> Advanced Settingsでdocs/conf.pyと指定したら直った
 * `http://stackoverflow.com/questions/32729978/read-the-docs-build-failing-without-errors <http://stackoverflow.com/questions/32729978/read-the-docs-build-failing-without-errors>`_
+
+
+++++++++++
+数式サポート
+++++++++++
+
+* conf.pyのextensionsに'sphinx.ext.mathbase'を追加
+* ::
+
+	.. math::
+	    \sum \infty
+		
+* こうなる→
+.. math:: \sum \infty
+
+* `http://shimizukawa-sphinx.readthedocs.io/ja/latest/ext/math.html <http://shimizukawa-sphinx.readthedocs.io/ja/latest/ext/math.html>`_
+
+++++++++++
+Google analytics
+++++++++++
+
+* Admin -> Advanced settingにトラックコードを追加
+

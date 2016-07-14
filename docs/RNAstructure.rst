@@ -5,7 +5,7 @@ RNAex: an RNA secondary structure prediction server enhanced by high-throughput 
 -----------
 
 
-* Yang Wu†, Rihao Qu†, Yiming Huang†, Binbin Shi, Mengrong Liu, Yang Li and Zhi John Lu*
+* Yang Wu, Rihao Qu, Yiming Huang, Binbin Shi, Mengrong Liu, Yang Li and Zhi John Lu*
 * April, 2016.
 * RNAex server to access structure probing data
 * in vivo and in vitro 
@@ -31,20 +31,24 @@ A comprehensive database of high-throughput sequencing-based RNA secondary struc
 * May, 2016.
 * ds/ssRNA-seq (RNaseONE ss and RNase V1 ds)
 .. math::
+
 	S_i = \log_2 \frac{ONE_i + 1}{V_{1j}+1}
 
 
 * similar to PARS
 .. math::
+
 	S_i = \log_2 (\sum \frac{V_{1j}+5}{5} )- \log_2 (\sum \frac{S_{1j}+5}{5})
 
 
 * DMS-seq
 .. math::
+
 	R_i = \frac{D_i / D_{max}}{C_i / C_{max}}
 
 * icSHAPE
 .. math::
+
 	R_i = (D_i - C_i) / B
 
 
