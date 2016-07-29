@@ -57,7 +57,7 @@ Manage database
 
 とりあえず表示したいときには ::
 
-	SELECT * FROM tablename WHERE 条件 LIMIT start,end
+	SELECT * FROM tablename WHERE 条件 LIMIT start,number
 	
 で表示できます。
 あとは条件文を設定して絞っていくことになります。

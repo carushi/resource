@@ -5,7 +5,7 @@ RNAex: an RNA secondary structure prediction server enhanced by high-throughput 
 ---------------------------------------------------------------------------------------------------------
 
 
-* Yang Wu, Rihao Qu, Yiming Huang, Binbin Shi, Mengrong Liu, Yang Li and Zhi John Lu*
+* Yang Wu, Rihao Qu, Yiming Huang, Binbin Shi, Mengrong Liu, Yang Li, and Zhi John Lu*
 * April, 2016.
 * RNAex server to access structure probing data
 * in vivo and in vitro 
@@ -27,7 +27,7 @@ Mouse          icSHAPE
 
 A comprehensive database of high-throughput sequencing-based RNA secondary structure probing data (Structure Surfer)
 ---------------------------------------------------------------------------------------------------------------------
-* Nathan D. Berkowitz, Ian M. Silverman, Daniel M. Childress, Hilal Kazan, Li-San Wang and Brian D. Gregory
+* Nathan D. Berkowitz, Ian M. Silverman, Daniel M. Childress, Hilal Kazan, Li-San Wang, and Brian D. Gregory
 * May, 2016.
 * ds/ssRNA-seq (RNaseONE ss and RNase V1 ds)
 
@@ -57,10 +57,12 @@ A comprehensive database of high-throughput sequencing-based RNA secondary struc
 
 
 
+--
+
 
 The RNA structurome: transcriptome-wide structure probing with next-generation sequencing.
 ---------------------------------------------------------------------------------------------------------------------
-* Chun Kit Kwok, Yin Tang, Sarah M. Assmann, Philip C. Bevilacqua.
+* Chun Kit Kwok, Yin Tang, Sarah M. Assmann, and Philip C. Bevilacqua.
 * April, 2015.
 
 
