@@ -23,13 +23,18 @@ Test set
 
 Employdbというやつのfull setを落としてきました。
 `https://launchpad.net/test-db/+download <https://launchpad.net/test-db/+download>`_
-
+fileをimportすると、データベース名が表示されます。
  ::
  
- 	mysql> use db #追加する場合
-	mysql> source file
+	mysql> SOURCE file;
+	mysql> SHOW DATABASES;
+
+使用するときにはuseでデータベース名を指定します。
+ ::
+ 
+ 	mysql> USE db;
 	
-このときMysqlのバージョン違いから、storange_engine変数がないというエラーが出たので、 ::
+このときMysqlのバージョン違いから、storange_engine変数がないというエラーが出たので、本文中の ::
 
 	-- set storage_engine = InnoDB error
 	
@@ -38,7 +43,7 @@ Employdbというやつのfull setを落としてきました。
 
 stopしてもサーバーにデータは残っていますので、データベースを消去するときは ::
 
-	DROP DATABASE IF EXITSTS dbname;
+	DROP DATABASE IF EXITSTS db;
 
 で消せます。
 `http://www.liquidweb.com/kb/delete-a-mysql-database-on-linux-via-command-line/ <http://www.liquidweb.com/kb/delete-a-mysql-database-on-linux-via-command-line/>`_
@@ -61,6 +66,8 @@ Manage database
 
 PyMySQLを使う
 +++++++++++++
+
+Python.2.x環境のようなので、2で使っています。
 
 `https://donjajo.com/using-pymysql-as-mysql-driver-for-python3/#.V33kSZN972I <https://donjajo.com/using-pymysql-as-mysql-driver-for-python3/#.V33kSZN972I>`_
 
